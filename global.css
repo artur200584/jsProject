@@ -1,0 +1,19 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.text-bold {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-regural {
+    font-size: 17px;
+    font-weight: 400;
+}
+
