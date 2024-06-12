@@ -63,6 +63,4 @@ addDot()
 arrowLeft.addEventListener('click', nextSlider)
 arrowRight.addEventListener('click', previousSlider)
 
-
-
-
+//
