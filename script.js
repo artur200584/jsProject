@@ -64,3 +64,18 @@ arrowLeft.addEventListener('click', nextSlider)
 arrowRight.addEventListener('click', previousSlider)
 
 //
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('https://jsonplaceholder.typicode.com/users')
+        .then(res => res.json())
+        .then(users => {
+            const userData = document.getElementById('Userdata')
+            users.forEach((users) => {
+                const userItem = document.createElement('li')
+                userItem.classList.add('userList')
+                userItem.textContent = `Name ${users.name}, Email ${users.email}`
+                userData.appendChild(userItem)
+            })
+        })
+        .catch(error => console.error('error', error))
+})

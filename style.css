@@ -446,6 +446,30 @@
     background-color: #ffbc69;
 }
 
+
+.main {
+    margin: 0 auto;
+    width: 50%;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Userdata {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.userList {
+    margin-bottom: 20px;
+    font-size: 30px;
+    border: solid 1px orange;
+    padding: 10px;
+}
+
 .footer {
     display: flex;
     padding-top: 70px;
